@@ -1,0 +1,9 @@
+﻿<Application x:Class="Server.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local1="clr-namespace:Server.Models"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local1:Lamba x:Key="Lamba"/>
+    </Application.Resources>
+</Application>
